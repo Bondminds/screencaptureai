@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Screen Capture AI",
+    "description": "Capture a screenshot of the current tab.",
+    "version": "1.0",
+    "permissions": ["activeTab", "tabs", "<all_urls>"],
+    "browser_action": 
+    {
+      "default_title": "Screen Capture AI",
+      "default_popup": "popup.html"
+    }
+  }
+  
